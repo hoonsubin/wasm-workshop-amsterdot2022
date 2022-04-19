@@ -6,6 +6,7 @@
     "@capacitor/core": "3.4.3",
     "@ionic/react": "^6.0.0",
     "@ionic/react-router": "^6.0.0",
+    "@polkadot/api": "^8.1.1",
     "@testing-library/jest-dom": "^5.11.9",
     "@testing-library/react": "^11.2.5",
     "@testing-library/user-event": "^12.6.3",
@@ -37,7 +38,7 @@
     "workbox-streams": "^5.1.4"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "ionic serve",
     "build": "react-scripts build",
     "test": "react-scripts test --transformIgnorePatterns 'node_modules/(?!(@ionic/react|@ionic/react-router|@ionic/core|@stencil/core|ionicons)/)'",
     "eject": "react-scripts eject"
@@ -61,7 +62,8 @@
     ]
   },
   "devDependencies": {
-    "@capacitor/cli": "3.4.3"
+    "@capacitor/cli": "3.4.3",
+    "@ionic/cli": "^6.19.0"
   },
   "description": "An Ionic project"
 }
